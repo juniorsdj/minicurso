@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "0.0.01",
+  "description": "Material produzido para o minicurso de introdução a NodeJS, construindo uma API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juniorsdj/minicurso.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juniorsdj/minicurso/issues"
+  },
+  "homepage": "https://github.com/juniorsdj/minicurso#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.3",
+    "nodemon": "^1.18.4"
+  }
+}
